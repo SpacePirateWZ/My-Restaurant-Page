@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    background-image: url('./images/background.jpg');
+}
+
+.tabs-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.tab {
+    border-color: aqua;
+    background: linear-gradient(to left, brown, purple);
+    padding: 20px;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(252, 248, 242);
+}
+
+.tab:hover {
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff5733, #ffca33);
+    color: white;
+    transform: scale(1.1);
+}
+
+.page-content {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 1000px;
+    min-width: 1000px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.res-name {
+    padding-top: 20px;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 5rem;
+    margin-top: 15px;
+}
+
+.welcome-line {
+    font-family: 'Piazzolla', serif;
+    font-size: 3.5rem;
+    background-image: linear-gradient(to left, blue, orange); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+    font-weight: 500;
+}
+
+
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+img:hover {
+    filter: brightness(120%);
+}
+
+.res-intro {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.7rem;
+    line-height: 5rem;
+    font-style: italic;
+    padding: 0px 20px;
+}
+
+.working-line{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    background-image: linear-gradient(to right, blue, #ffca33); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+}
+
+/* mainly to remove left padding of ul */
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.day {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0px;
+    color: rgba(114, 6, 6, 0.815);
+}
+
+.day-info {
+    list-style-type: none;
+    font-weight: normal;
+    color: #2e1813;
+}
+
+.working-line2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red, rgb(73, 5, 5)); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+}
+
+.address-intro {
+    font-size: 3rem;
+    background-image: linear-gradient(to right, blue, #ffca33); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+    margin-bottom: 0px;
+}
+
+.address {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* styling for menu page */
+
+.menu-intro {
+    font-family:'Mooli', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+    line-height: 3.5rem;
+    margin-top: 15px;
+    color: #46280f;
+}
+
+.product-name {
+    font-size: 5rem;
+    background-image: linear-gradient(to right, purple, grey); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+}
+
+.product-intro {
+    font-size: 2rem;
+    padding: 10px 30px;
+    margin: 20px 0px 0px 0px;
+}
+
+.product-price {
+    margin-top: none;
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+.product-remark {
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 10px 30px 20px 30px;
+}
+
+/* styling for contact page */
+
+.contact-intro {
+    font-family:'Mooli', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+    line-height: 3.5rem;
+    margin-top: 15px;
+    color: #46280f;
+}
+
+.contact-image {
+    width: 400px;
+    height: 550px;
+}
+
+.contact-image:hover {
+    filter: none;
+}
+
+.email {
+    display: block;
+    margin-top: 30px;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.email:hover {
+    transform: scale(1.5);
+    color: rgb(85, 85, 189);
+}
+
+.contact {
+    font-size: 2.2rem;
+}
+
+.ending-text {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple, grey); 
+    -webkit-background-clip: text; /* support for webkit browser */
+    background-clip: text; /* support for browsers that support standard-propert */
+    color: transparent;
+}
